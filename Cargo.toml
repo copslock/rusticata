@@ -4,8 +4,8 @@ version = "0.1.0"
 description = "Glue layer for loading Rust parsers in Suricata"
 license = "LGPL-2.1+"
 keywords = ["Suricata","IDS","TLS","SSL","protocol","parser","nom"]
-homepage = "https://github.com/rusticata/rusticata"
-repository = "https://github.com/rusticata/rusticata.git"
+homepage = "https://github.com/copslock/rusticata"
+repository = "https://github.com/copslock/rusticata.git"
 authors = ["Pierre Chifflier <chifflier@wzdftpd.net>"]
 
 [lib]
@@ -58,3 +58,7 @@ git = "https://github.com/rusticata/tls-parser.git"
 [dependencies.x509-parser]
 # path = "../x509-parser"
 git = "https://github.com/rusticata/x509-parser.git"
+
+[dependencies.ipsec-parser]
+# path = "../ipsec-parser"
+git = "https://github.com/rusticata/ipsec-parser.git"
